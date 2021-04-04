@@ -1,3 +1,13 @@
+# Make a two-player Rock-Paper-Scissors game. 
+# (Hint: Ask for player plays (using input), compare them, print out a message of congratulations to the winner, 
+# and ask if the players want to start a new game)
+
+# Remember the rules:
+
+#     Rock beats scissors
+#     Scissors beats paper
+#     Paper beats rock
+
 while True:
     User_input_1 = input("Enter Rock or Paper or Scissor for USER 1 : ")
     User_input_2 = input("Enter Rock or Paper or Scissor for USER 2 : ")
@@ -17,4 +27,3 @@ while True:
     else:
         (User_input_1 == "") & (User_input_2 =="")
         break
-    
