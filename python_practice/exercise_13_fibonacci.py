@@ -13,7 +13,7 @@ def fibonacchi_seq():
         new_num=n1+n2
         n1=n2
         n2=new_num
-        Fibonnaci_List.append(n1)
+        Fibonnaci_List.append(float(n1))
 
     return print(Fibonnaci_List)
 
